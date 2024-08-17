@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 450px;  /* Reduced width */
+    background-color: #191414;  /* Spotify dark background */
+    color: white;
+    font-family: 'Nunito', Arial, sans-serif;  /* Refined font similar to Spotify's Circular */
+}
+
+#app {
+    padding: 15px;
+    text-align: center;
+}
+
+#album-cover {
+    width: 70%;  /* Smaller image size */
+    border-radius: 8px;
+    margin-bottom: 10px;  /* Reduced margin */
+}
+
+#song-info {
+    margin-bottom: 15px;  /* Reduced margin */
+}
+
+#song-title {
+    font-size: 18px;  /* Slightly smaller font size */
+    margin: 0;
+    font-weight: bold;
+}
+
+#song-artist {
+    font-size: 14px;  /* Slightly smaller font size */
+    color: #b3b3b3;
+}
+
+#learn-more {
+    background-color: #1DB954;  /* Spotify green */
+    border: none;
+    padding: 8px;  /* Reduced padding */
+    color: white;
+    cursor: pointer;
+    font-size: 14px;  /* Slightly smaller font size */
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width: 100%;  /* Full-width button */
+}
+
+#learn-more:hover {
+    background-color: #1ed760;  /* Slightly lighter green */
+}
+
+#summary {
+    margin-top: 15px;  /* Reduced margin */
+    font-size: 14px;  /* Slightly smaller font size */
+    color: white;
+    text-align: left;
+    line-height: 1.4;
+}
