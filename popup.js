@@ -3,7 +3,7 @@ let songTitle = '';
 let songArtist = '';
 
 document.addEventListener('DOMContentLoaded', function () {
-    const backendUrl = 'http://localhost:3000';  // Replace with your live backend URL when deploying
+    const backendUrl = 'https://spotify-info-backend-production.up.railway.app';  // Replace with your live backend URL when deploying
 
     async function getSpotifyToken() {
         // Generate the OAuth URL
